@@ -1,0 +1,16 @@
+[package]
+name = "Proxycontractsystem"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+durga_addr="0694cd0e68f08102cb72726424684fd84f1efdc755cb99fd3a89e8d08a83939e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
